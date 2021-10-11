@@ -5,6 +5,6 @@ public class CreateAssetBundle : Editor
     [MenuItem("Assets/Build Bundles")]
     static void BuildAllAssetBundles()
     {
-        BuildPipeline.BuildAssetBundles(@"C:\Game\Bundles", BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.StandaloneWindows64);
+        BuildPipeline.BuildAssetBundles(@"C:\Game\Data", BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.StandaloneWindows64);
     }
 }
